@@ -1,0 +1,119 @@
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;    
+}
+
+header {
+    display: flex;
+    height: 69px;
+    width: 0 auto;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 50px;
+    margin: 10px;
+}
+
+.navigation li {
+    list-style: none;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    text-decoration: underline;
+    padding-right: 25px;
+}
+
+a {
+    color: seashell;
+}
+
+.missionBG {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto;
+    display: flex;
+}
+
+#ourMission {
+    margin: auto;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+}
+
+#totm {
+   margin: auto;
+   background-color: black;
+   max-width: 1000px;
+   text-align: center;
+}
+
+.tea-cont {
+    display: inline-flex;
+    max-width: 1000px;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.prod img {
+    height: 200px;
+    width: 300px;
+    padding: 10px 10px;
+}
+
+.loc-cont {
+    height: 500px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    padding-top: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('res/img-locations-background.jpeg');
+    background-size: cover;
+}
+
+#loc-title {
+    display: inline-block;
+    margin: auto;
+}
+
+.loc-boxes {
+    display: flex;
+    justify-content: space-around;
+    padding: 0% 8%;
+}
+
+.location {
+    max-height: 300px;
+    max-width: 300px;
+    margin: 15px 20px;
+    background-color: black;
+    opacity: 1; 
+    flex-basis: 30%;
+}
+
+.contact {
+    height: 200px;
+}
+
+#copy {
+    display: flex;
+    padding: 0px 20px;
+    text-align: left;
+}
